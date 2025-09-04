@@ -1,0 +1,47 @@
+// Example 6: Functions and local variables
+// Simple function
+function greet(name) {
+    return "Hello, " + name + "!"
+}
+
+print greet("World")  // Hello, World!
+
+// Function with multiple parameters
+function add(a, b) {
+    return a + b
+}
+
+print add(5, 3)  // 8
+
+// Function with local variables
+function calculateArea(width, height) {
+    area = width * height
+    return area
+}
+
+print calculateArea(4, 5)  // 20
+
+// Recursive function
+function factorial(n) {
+    if (n <= 1) {
+        return 1
+    }
+    return n * factorial(n - 1)
+}
+
+print factorial(5)  // 120
+
+// Function that uses closures (if advanced features are implemented)
+function makeCounter() {
+    count = 0
+    function increment() {
+        count = count + 1
+        return count
+    }
+    return increment
+}
+
+counter = makeCounter()
+print counter()  // 1
+print counter()  // 2
+print counter()  // 3

@@ -1,0 +1,24 @@
+// Example 2: Boolean logic
+print true and false  // false
+print true or false   // true
+print !true          // false
+
+// Comparison operators
+print 5 > 3          // true
+print 5 < 3          // false
+print 5 >= 5         // true
+print 5 <= 3         // false
+print 5 == 5         // true
+print 5 != 3         // true
+
+// Complex conditions
+print true and (5 > 3)  // true
+print false or (10 != 5)  // true
+print !(5 < 3)  // true
+
+// Short-circuit evaluation (this would be nice but isn't required)
+// true or anything is always true, so the right side is never evaluated
+print true or (5 / 0)  // true
+
+// false and anything is always false, so the right side is never evaluated
+print false and (5 / 0)  // false

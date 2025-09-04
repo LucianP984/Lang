@@ -1,0 +1,14 @@
+class Person {
+    init(name, age) {
+        this.name = name
+        this.age = age
+    }
+    
+    sayHello() {
+        print "Hello, my name is " + this.name
+    }
+}
+
+john = new Person("John", 30)
+john.sayHello()
+print john.age

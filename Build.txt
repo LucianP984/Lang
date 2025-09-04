@@ -1,0 +1,61 @@
+# Build Instructions
+
+This project is a Python-based interpreter for a custom programming language. Follow these steps to build and run the interpreter:
+Prerequisites
+
+    Python 3.6 or higher
+
+Setup
+
+    Ensure all the project files are in the correct directory structure:
+
+    /
+    ├── main.py
+    |__ examples/
+    |   |__example1.txt
+    |   |__example2.txt
+    |   |...
+    ├── lexer/
+    │   ├── __init__.py
+    │   ├── lexer.py
+    │   └── token_types.py
+    ├── parser/
+    │   ├── __init__.py
+    │   ├── ast.py
+    │   ├── parser.py
+    │   └── runtime.py
+    └── interpreter/
+        ├── __init__.py
+        └── interpreter.py
+
+    No additional Python packages are required beyond the standard library.
+
+Running the Interpreter
+
+To run a program written in the custom language:
+
+bash
+
+Copy Code
+python main.py <directory/source_file>
+
+For example, to run one of the example files:
+
+bash
+
+Copy Code
+python main.py examples/example1.txt
+
+Testing
+
+The repository includes several example files that demonstrate different language features:
+
+    example1.txt: Basic arithmetic operations
+    example2.txt: Boolean logic and comparisons
+    example3.txt: Text manipulation
+    example4.txt: Control flow (if/while statements)
+    example5.txt: Lists and dictionaries
+    example6.txt: Functions and local variables
+    example7.txt: For loops and iteration
+    example8.txt: Classes and object instantiation
+    example9.txt: Exponentiation and class methods

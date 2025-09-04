@@ -1,0 +1,63 @@
+Syntax Highlights
+Variable Assignment
+
+variable = value
+
+If Statement
+
+if (condition) {
+    // statements
+} else {
+    // statements
+}
+
+While Loop
+
+while (condition) {
+    // statements
+}
+
+For Loop
+
+for (item in collection) {
+    // statements
+}
+
+Function Definition
+
+function name(param1, param2) {
+    // statements
+    return value
+}
+
+Class Definition
+
+class Person {
+    init(name, age) {
+        this.name = name
+        this.age = age
+    }
+
+    greet() {
+        print "Hello, my name is " + this.name
+    }
+}
+
+Object Instantiation
+
+person = new Person("John", 30)
+person.greet()
+
+Lists
+
+myList = [1, 2, 3, 4, 5]
+print myList[2]  // Outputs: 3
+
+Dictionaries
+
+person = {"name": "John", "age": 30}
+print person["name"]  // Outputs: John
+
+Exponentiation
+
+print 2 ^ 3  // Outputs: 8

@@ -1,0 +1,12 @@
+// Example 1: Basic arithmetic operations
+print 5 + 10  // 15
+print (10 - 5) * 2  // 10
+print 10 / 2  // 5.0
+print 10 % 3  // 1 (This would be a nice feature but isn't required)
+
+// Mixing operators
+print 5 + 10 * 2  // 25 (multiplication has higher precedence)
+print (5 + 10) * 2  // 30 (parentheses override precedence)
+
+// Nested expressions
+print ((5 + 3) * 2) - 4  // 12

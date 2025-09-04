@@ -1,0 +1,29 @@
+// Example 5: Lists and dictionaries
+// Creating and using lists
+numbers = [1, 2, 3, 4, 5]
+print numbers  // [1, 2, 3, 4, 5]
+print numbers[2]  // 3 (zero-based indexing)
+
+// List methods
+append(numbers, 6)  // Or numbers.append(6) if implemented
+print numbers  // [1, 2, 3, 4, 5, 6]
+print pop(numbers)  // 6
+print numbers  // [1, 2, 3, 4, 5]
+print length(numbers)  // 5
+
+// List operations
+list1 = [1, 2, 3]
+list2 = [4, 5, 6]
+print list1 + list2  // [1, 2, 3, 4, 5, 6]
+print [0] * 5  // [0, 0, 0, 0, 0]
+
+// Creating and using dictionaries
+person = {"name": "John", "age": 30, "city": "New York"}
+print person  // {name: John, age: 30, city: New York}
+print person["name"]  // John
+print person["age"]  // 30
+
+// Dictionary operations
+person["email"] = "john@example.com"  // Add a new key-value pair
+print person  // {name: John, age: 30, city: New York, email: john@example.com}
+print length(person)  // 4

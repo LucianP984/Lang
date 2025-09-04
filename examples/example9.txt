@@ -1,0 +1,13 @@
+class Math {
+    init(base) {
+        this.base = base
+    }
+    
+    power(exponent) {
+        return this.base ^ exponent
+    }
+}
+
+calculator = new Math(2)
+print calculator.power(8)  // Should print 256 (2^8)
+print 3 ^ 4  // Should print 81 (3^4)

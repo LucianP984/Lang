@@ -1,0 +1,17 @@
+// Example 3: Text manipulation
+print "Hello, world!"  // Hello, world!
+
+// String concatenation
+print "Hello" + " " + "World"  // Hello World
+print "The answer is " + 42  // The answer is 42
+
+// String repetition
+print "=" * 10  // ==========
+print "ho" * 3  // hohoho
+
+// String length
+print length("Hello")  // 5
+
+// String indexing
+print "Hello"[0]  // H
+print "Hello"[4]  // o
